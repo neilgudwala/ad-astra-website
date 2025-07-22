@@ -2,39 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Ad Astra Design System - Dark space theme with cosmic inspiration
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Main backgrounds - deep space blacks */
+    --background: 220 10% 8%;
+    --foreground: 210 20% 92%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Cards and surfaces */
+    --card: 220 15% 12%;
+    --card-foreground: 210 20% 92%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    /* Popover surfaces */
+    --popover: 220 15% 12%;
+    --popover-foreground: 210 20% 92%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - cosmic blue */
+    --primary: 220 80% 50%;
+    --primary-foreground: 210 20% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - deep space */
+    --secondary: 220 25% 18%;
+    --secondary-foreground: 210 20% 88%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted elements */
+    --muted: 220 20% 15%;
+    --muted-foreground: 210 15% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - nebula teal */
+    --accent: 180 60% 45%;
+    --accent-foreground: 210 20% 98%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 20% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Borders and inputs */
+    --border: 220 25% 25%;
+    --input: 220 25% 20%;
+    --ring: 220 80% 50%;
+
+    /* Custom space theme colors */
+    --cosmic-purple: 270 60% 35%;
+    --nebula-pink: 340 70% 50%;
+    --star-gold: 45 90% 60%;
+    --galaxy-blue: 220 80% 30%;
+    
+    /* Gradients */
+    --gradient-space: linear-gradient(135deg, hsl(220 15% 12%), hsl(270 30% 8%));
+    --gradient-nebula: linear-gradient(45deg, hsl(270 60% 35%), hsl(340 70% 50%), hsl(220 80% 50%));
+    --gradient-cosmic: linear-gradient(180deg, hsl(220 10% 8%), hsl(220 25% 15%));
 
     --radius: 0.5rem;
 
@@ -100,6 +120,36 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    background: var(--gradient-space);
+  }
+  
+  /* Space-themed utility classes */
+  .gradient-space {
+    background: var(--gradient-space);
+  }
+  
+  .gradient-nebula {
+    background: var(--gradient-nebula);
+  }
+  
+  .gradient-cosmic {
+    background: var(--gradient-cosmic);
+  }
+  
+  .text-cosmic-purple {
+    color: hsl(var(--cosmic-purple));
+  }
+  
+  .text-nebula-pink {
+    color: hsl(var(--nebula-pink));
+  }
+  
+  .text-star-gold {
+    color: hsl(var(--star-gold));
+  }
+  
+  .bg-cosmic-purple {
+    background-color: hsl(var(--cosmic-purple));
   }
 }

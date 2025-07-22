@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Montserrat', 'system-ui', 'sans-serif'],
+				display: ['Orbitron', 'Montserrat', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +65,11 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'cosmic-purple': 'hsl(var(--cosmic-purple))',
+				'nebula-pink': 'hsl(var(--nebula-pink))',
+				'star-gold': 'hsl(var(--star-gold))',
+				'galaxy-blue': 'hsl(var(--galaxy-blue))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
