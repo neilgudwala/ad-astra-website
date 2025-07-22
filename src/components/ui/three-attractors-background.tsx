@@ -44,9 +44,9 @@ export const ThreeAttractorsBackground: React.FC = () => {
     const height = mountRef.current?.clientHeight || window.innerHeight;
     const loader = new THREE.TextureLoader();
     const attractorTextures = [
-    loader.load("public/sun.jpg"),
-    loader.load("public/venus.jpg"),
-    loader.load("public/jupiter.jpg")
+    loader.load("/sun.jpg"),
+    loader.load("/venus.jpg"),
+    loader.load("/jupiter.jpg")
     ];
     const bgTexture = loader.load("/public/bg.jpg");
 

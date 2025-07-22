@@ -20,7 +20,8 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Montserrat', 'system-ui', 'sans-serif'],
-				display: ['Orbitron', 'Montserrat', 'sans-serif'],
+				display: ['Nasalization', 'sans-serif'],
+				nasalization: ['Nasalization', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

@@ -89,10 +89,10 @@ const Home = () => {
       >
         <ThreeAttractorsBackground />
         <div className="relative z-10 max-w-4xl mx-0 px-4">
-          <h1 className="font-display font-bold text-5xl md:text-7xl lg:text-8xl text-white mb-6 tracking-wide text-left">
+          <h1 className="font-nasalization font-bold text-5xl md:text-7xl lg:text-8xl text-white mb-6 tracking-wide text-left">
             AD ASTRA
           </h1>
-          <p className="text-xl md:text-2xl text-gray-200 mb-4 font-light text-left">
+          <p className="font-nasalization text-xl md:text-2xl text-gray-200 mb-4 font-light text-left">
             Astronomy & Astrophysics Club
           </p>
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-0 text-left">
