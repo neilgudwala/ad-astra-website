@@ -48,7 +48,7 @@ export const ThreeAttractorsBackground: React.FC = () => {
     loader.load("/venus.jpg"),
     loader.load("/jupiter.jpg")
     ];
-    const bgTexture = loader.load("/public/bg.jpg");
+    const bgTexture = loader.load("/bg.jpg");
 
     function onScroll(e: WheelEvent) {
         // Normalize trackpad vs mouse
