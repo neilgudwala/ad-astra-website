@@ -113,6 +113,7 @@ const Home = () => {
           { title: "Home", icon: <HomeIcon className="w-6 h-6" />, href: "/" },
           { title: "Events", icon: <CalendarIcon className="w-6 h-6" />, href: "/events" },
           { title: "Team", icon: <UsersIcon className="w-6 h-6" />, href: "/team" },
+          { title: "Research", icon: <InfoIcon className="w-6 h-6" />, href: "/research" },
           { title: "Astrophotography", icon: <CameraIcon className="w-6 h-6" />, href: "/astrophotography" },
           { title: "About", icon: <InfoIcon className="w-6 h-6" />, href: "/about" },
         ]}
