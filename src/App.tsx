@@ -22,7 +22,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <div className="min-h-screen flex flex-col">
-          <Navigation />
+          {/* <Navigation /> */}
           <main className="flex-1">
             <Routes>
               <Route path="/" element={<Home />} />
@@ -35,7 +35,7 @@ const App = () => (
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </BrowserRouter>
     </TooltipProvider>
