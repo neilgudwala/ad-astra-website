@@ -68,7 +68,7 @@ const App = () => {
                       key={item.name}
                       to={item.link}
                       onClick={() => setMobileOpen(false)}
-                      className="block px-4 py-2 text-lg text-neutral-800 dark:text-neutral-200 rounded hover:bg-gray-100 dark:hover:bg-neutral-800 w-full"
+                      className="block px-4 py-2 text-white font-adastra text-lg rounded hover:bg-gray-100 dark:hover:bg-neutral-800 w-full"
                     >
                       {item.name}
                     </Link>
