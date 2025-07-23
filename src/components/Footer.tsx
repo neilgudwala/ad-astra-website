@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-2">
               {/* <span className="font-adastra font-bold text-2xl text-foreground select-none">AD ASTRA</span> */}
-              <img src="public\AA-FULL-WHITE.png" alt="logo" className="h-11 w-44 p-0 m-0" />
+              <img src="/AA-FULL-WHITE.png" alt="logo" className="h-11 w-44 p-0 m-0" />
             </div>
             <p className="text-muted-foreground mb-2 max-w-md text-sm">
               Exploring the vast void and uncovering the cosmos. Join our community of astronomy 
