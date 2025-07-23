@@ -33,11 +33,11 @@ const App = () => {
   const isHome = location.pathname === "/";
   const navItems = [
     // { name: "Home", link: "/" },
+    { name: "Events", link: "/events" },
     { name: "Astrophotography", link: "/astrophotography" },
     { name: "Research", link: "/research" },
-    { name: "Events", link: "/events" },
-    { name: "About", link: "/about" },
-    { name: "Team", link: "/team" },
+    { name: "The Team", link: "/team" },
+    { name: "About Us", link: "/about" },
     // { name: "Playground", link: "/playground" },
   ];
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -93,12 +93,12 @@ const App = () => {
           {isHome && (
             <FloatingDock
               items={[
-                { title: "Home", icon: <HomeIcon className="w-6 h-6" />, href: "/" },
+                // { title: "Home", icon: <HomeIcon className="w-6 h-6" />, href: "/" },
                 { title: "Events", icon: <CalendarIcon className="w-6 h-6" />, href: "/events" },
-                { title: "Team", icon: <UsersIcon className="w-6 h-6" />, href: "/team" },
-                { title: "Research", icon: <TelescopeIcon className="w-6 h-6" />, href: "/research" },
                 { title: "Astrophotography", icon: <CameraIcon className="w-6 h-6" />, href: "/astrophotography" },
-                { title: "About", icon: <InfoIcon className="w-6 h-6" />, href: "/about" },
+                { title: "Research", icon: <TelescopeIcon className="w-6 h-6" />, href: "/research" },
+                { title: "The Team", icon: <UsersIcon className="w-6 h-6" />, href: "/team" },
+                { title: "About Us", icon: <InfoIcon className="w-6 h-6" />, href: "/about" },
               ]}
               desktopClassName="fixed left-1/2 -translate-x-1/2 bottom-16 z-50 shadow-lg"
               mobileClassName="fixed bottom-16 right-4 z-50 shadow-lg"

@@ -11,7 +11,7 @@ const TeamSidebar = ({ years, selectedYear, onYearSelect }: TeamSidebarProps) =>
   return (
     <div className="w-48 bg-card border border-border p-4 rounded-lg shadow-sm"> {/* Added rounded-lg and shadow-sm */}
       <h3 className="font-display font-bold text-lg text-foreground mb-4">
-        Academic Years
+        Select Year
       </h3>
       <div className="space-y-2">
         {years.map((year) => {
