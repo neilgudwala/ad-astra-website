@@ -1,5 +1,70 @@
+const photographsOfMonth = [
+  { image: galaxy1, title: "Andromeda Galaxy", photographer: "Sarah Chen" },
+  { image: nebula1, title: "Orion Nebula", photographer: "Mike Rodriguez" },
+  { image: saturn, title: "Saturn Rings", photographer: "Alex Kim" },
+  { image: earth, title: "Earth from ISS", photographer: "NASA Archives" },
+  { image: moon, title: "Lunar Surface", photographer: "Emily Watson" },
+];
 
-      {/* Photographs of the Month */}
+const upcomingEvents = [
+  {
+    date: "15",
+    month: "MAR",
+    title: "Stargazing Night",
+    description: "Join us for an evening of celestial observation",
+    image: moon,
+    link: "/events"
+  },
+  {
+    date: "22",
+    month: "MAR", 
+    title: "Guest Lecture: Black Holes",
+    description: "Dr. Johnson discusses recent black hole discoveries",
+    image: nebula1,
+    link: "/events"
+  },
+  {
+    date: "05",
+    month: "APR",
+    title: "Astrophotography Workshop",
+    description: "Learn techniques for capturing the night sky",
+    image: galaxy1,
+    link: "/events"
+  },
+  {
+    date: "18",
+    month: "APR",
+    title: "Planetary Alignment",
+    description: "Observe the rare planetary alignment event",
+    image: saturn,
+    link: "/events"
+  }
+];
+
+const teamMembers = [
+  {
+    name: "Sarah Chen",
+    role: "President",
+    image: "https://images.unsplash.com/photo-1494790108755-2616b2e30bc0?w=300&h=300&fit=crop&crop=face"
+  },
+  {
+    name: "Dr. Michael Torres",
+    role: "Faculty Advisor", 
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face"
+  },
+  {
+    name: "Emily Rodriguez",
+    role: "Secretary",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face"
+  },
+  {
+    name: "Alex Kim",
+    role: "Treasurer",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+  }
+];
+ 
+ {/* Photographs of the Month */}
       <section className="py-20 px-4 max-w-7xl mx-auto">
         <h2 className="font-display font-bold text-3xl md:text-4xl text-center mb-12 text-foreground">
           PHOTOGRAPHS OF THE MONTH

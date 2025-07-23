@@ -1,7 +1,9 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { FloatingDock } from "@/components/ui/floating-dock";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Users, Calendar, BookOpen } from "lucide-react";
+import { ExternalLink, Users, Calendar,  MapPin, Telescope, BookOpen, Rocket, Home as HomeIcon, Users as UsersIcon, Camera as CameraIcon, Calendar as CalendarIcon, Info as InfoIcon  } from "lucide-react";
+
 
 const Research = () => {
   const ongoingProjects = [
@@ -97,12 +99,12 @@ const Research = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background py-20">
+    <div className="min-h-screen bg-black py-20">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-6">
-            RESEARCH & PROJECTS
+            RESEARCH & PROJECTS | AD ASTRA
           </h1>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
             Discover the cutting-edge research conducted by our club members. From exoplanet hunting 
