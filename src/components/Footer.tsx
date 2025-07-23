@@ -16,6 +16,7 @@ const Footer = () => {
     { name: "Our Team", path: "/team" },
     { name: "Publications", path: "#" },
     { name: "Observatory", path: "#" },
+    { name: "Playground", path: "/playground" },
   ];
 
   return (

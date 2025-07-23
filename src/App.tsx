@@ -6,6 +6,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import Game from "./pages/Playground";
 import Astrophotography from "./pages/Astrophotography";
 import Research from "./pages/Research";
 import Events from "./pages/Events";
@@ -35,6 +36,7 @@ const App = () => {
               <Route path="/events" element={<Events />} />
               <Route path="/about" element={<About />} />
               <Route path="/team" element={<Team />} />
+              <Route path="/playground" element={<Game />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

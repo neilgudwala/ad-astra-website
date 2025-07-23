@@ -235,17 +235,17 @@ const Team = () => {
     ],
     "2019-20": [
       {
-        name: "Hemendra Singh",
+        name: "Yashas Anilkumar",
         position: "President",
         image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
       },
       {
-        name: "Aayush Shah",
+        name: "Sanika Khadkikar",
         position: "Secretary",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
       },
       {
-        name: "Vedagya Saraswat",
+        name: "Rupanshu Soi",
         position: "Treasurer",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
       }
