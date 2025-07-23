@@ -20,8 +20,8 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Montserrat', 'system-ui', 'sans-serif'],
-				display: ['Nasalization', 'sans-serif'],
-				nasalization: ['Nasalization', 'sans-serif'],
+				display: ['Ad-Astra', 'sans-serif'],
+				adastra: ['Ad-Astra', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

@@ -26,10 +26,10 @@ const Home = () => {
         {/* Dulling overlay */}
         <div className="absolute inset-0 z-5 bg-black/25  pointer-events-none" />
         <div className="relative z-10 max-w-4xl mx-auto px-4 flex flex-col items-center justify-center">
-          <h1 className="font-nasalization font-bold text-5xl md:text-7xl lg:text-8xl text-white mb-6 tracking-wider text-center">
+          <h1 className="font-adastra font-bold text-5xl md:text-7xl lg:text-8xl text-white mb-6 tracking-wider text-center">
             AD ASTRA
           </h1>
-          <p className="font-nasalization text-xl md:text-2xl text-gray-200 mb-4 font-light text-center">
+          <p className="font-adastra text-xl md:text-2xl text-gray-200 mb-4 font-light text-center">
             Astronomy & Astrophysics Club | BITS Hyderabad
           </p>
           <p className="text-lg md:text-xl text-gray-300/80 mb-8 max-w-2xl mx-auto text-center">

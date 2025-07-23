@@ -3,12 +3,12 @@ import TeamSidebar from "@/components/TeamSidebar";
 import TeamMemberCard from "@/components/TeamMemberCard";
 
 const Team = () => {
-  const [selectedYear, setSelectedYear] = useState("2024-25");
+  const [selectedYear, setSelectedYear] = useState("2025-26");
 
   const teamData = {
-    "2024-25": [
+    "2025-26": [
       {
-        name: "Sarah Chen",
+        name: "Neha Bhagwat",
         position: "President",
         image: "https://images.unsplash.com/photo-1494790108755-2616b2e30bc0?w=400&h=400&fit=crop&crop=face",
         contact: {
@@ -18,8 +18,8 @@ const Team = () => {
         }
       },
       {
-        name: "Emily Rodriguez",
-        position: "Vice President",
+        name: "Arnav Kulshrestha",
+        position: "Secretary",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
         contact: {
           email: "emily.rodriguez@university.edu",
@@ -28,8 +28,8 @@ const Team = () => {
         }
       },
       {
-        name: "Alex Kim",
-        position: "Secretary & Treasurer",
+        name: "Simran Misra",
+        position: "Treasurer",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
         contact: {
           email: "alex.kim@university.edu",
@@ -117,11 +117,11 @@ const Team = () => {
   const years = Object.keys(teamData);
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-black bg-[url('/bg.jpg')] bg-cover bg-center py-20">
       <div className="pt-20">
         {/* Header */}
         <div className="text-center mb-8 px-4">
-          <h1 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-4">
+          <h1 className="font-adastra font-bold text-4xl md:text-5xl text-foreground mb-4 select-none">
             MEET THE TEAM
           </h1>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">

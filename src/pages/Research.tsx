@@ -99,12 +99,12 @@ const Research = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black py-20">
+    <div className="min-h-screen bg-black bg-[url('/bg.jpg')] bg-cover bg-center py-20">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-6">
-            RESEARCH & PROJECTS | AD ASTRA
+          <h1 className="font-adastra font-bold text-4xl md:text-5xl text-foreground mb-6 select-none">
+            RESEARCH & PROJECTS
           </h1>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
             Discover the cutting-edge research conducted by our club members. From exoplanet hunting 
@@ -115,7 +115,7 @@ const Research = () => {
         {/* Research Areas */}
         <section className="mb-16">
           <h2 className="font-display font-bold text-2xl text-foreground mb-8 text-center">
-            Our Research Areas
+            Our Focus Areas
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {researchAreas.map((area, index) => (

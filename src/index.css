@@ -6,7 +6,7 @@
 All colors MUST be HSL.
 */
 @font-face {
-  font-family: 'Nasalization'; /* This is the name you'll use to refer to the font */
+  font-family: 'Ad-Astra'; /* This is the name you'll use to refer to the font */
   src: url('/fonts/Nasalization.otf') format('opentype'),
        url('/fonts/Nasalization.woff') format('woff');
   font-weight: normal; /* Adjust if you have different weights like bold, light etc. */

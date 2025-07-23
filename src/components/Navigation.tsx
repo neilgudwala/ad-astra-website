@@ -29,14 +29,14 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             
-            <Link to="/" className="font-display font-bold text-xl text-foreground hover:text-primary transition-colors">
+            <Link to="/" className="font-adastra font-bold text-3xl text-foreground hover:text-primary transition-colors select-none">
               AD ASTRA
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="ml-10 flex items-baseline space-x-5">
               {navItems.map((item) => (
                 <Link
                   key={item.name}

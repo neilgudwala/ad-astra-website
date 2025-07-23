@@ -94,11 +94,11 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black py-20">
+    <div className="min-h-screen bg-black bg-[url('/bg.jpg')] bg-cover bg-center py-20">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-6">
+          <h1 className="font-adastra font-bold text-4xl md:text-5xl text-foreground mb-6 select-none">
             ABOUT AD ASTRA
           </h1>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
@@ -141,36 +141,6 @@ const About = () => {
                 <p className="text-muted-foreground leading-relaxed">{activity.description}</p>
               </Card>
             ))}
-          </div>
-        </section>
-
-        {/* Our History */}
-        <section className="mb-16">
-          <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-12 text-center">
-            Our Journey
-          </h2>
-          <div className="relative">
-            <div className="absolute left-4 md:left-1/2 md:transform md:-translate-x-0.5 h-full w-0.5 bg-primary/30"></div>
-            <div className="space-y-8">
-              {milestones.map((milestone, index) => (
-                <div key={index} className="relative">
-                  <div className="flex items-center mb-4">
-                    <div className="absolute left-0 md:left-1/2 md:transform md:-translate-x-1/2 w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                      <Calendar className="h-4 w-4 text-primary-foreground" />
-                    </div>
-                    <div className={`ml-16 md:ml-0 ${index % 2 === 0 ? 'md:mr-1/2 md:pr-8' : 'md:ml-1/2 md:pl-8'}`}>
-                      <Card className="bg-card border-border p-6">
-                        <div className="flex items-center gap-3 mb-2">
-                          <span className="font-display font-bold text-xl text-primary">{milestone.year}</span>
-                          <h3 className="font-semibold text-lg text-foreground">{milestone.title}</h3>
-                        </div>
-                        <p className="text-muted-foreground">{milestone.description}</p>
-                      </Card>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </section>
 

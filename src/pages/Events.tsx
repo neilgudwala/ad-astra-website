@@ -118,12 +118,12 @@ const Events = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black py-20">
+    <div className="min-h-screen bg-black bg-[url('/bg.jpg')] bg-cover bg-center py-20">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-6">
-            EVENTS | AD ASTRA
+          <h1 className="font-adastra font-bold text-4xl md:text-5xl text-foreground mb-6">
+            EVENTS & ACTIVITIES
           </h1>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
             Join us for stargazing sessions, educational workshops, guest lectures, and special cosmic events. 

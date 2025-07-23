@@ -83,11 +83,11 @@ const Astrophotography = () => {
     : photos.filter(photo => photo.category === selectedCategory);
 
   return (
-    <div className="min-h-screen bg-black py-20">
+    <div className="min-h-screen bg-black bg-[url('/bg.jpg')] bg-cover bg-center py-20">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-6">
+          <h1 className="font-adastra font-bold text-4xl select-none md:text-5xl text-foreground mb-6">
             ASTROPHOTOGRAPHY GALLERY
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
