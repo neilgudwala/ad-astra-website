@@ -4,7 +4,7 @@ import * as THREE from "three";
 const MAX_SPEED = 0.1;
 const ATTRACTORS = [
     { 
-      position: new THREE.Vector3(4, -1.3, 0),
+      position: new THREE.Vector3(4, -1.3, -1),
       axis: new THREE.Vector3(0, 1, 0),
       mass: 1e7,
       spin: 2.75,
@@ -14,7 +14,7 @@ const ATTRACTORS = [
     {
       position: new THREE.Vector3(0.5, 1.5, -1),
       axis: new THREE.Vector3(1, 0, 1).normalize(),
-      mass: 5e6,
+      mass: 7e6,
       spin: 2.75,
       size: 0.65,
       color: "#4ecdc4"
@@ -23,7 +23,7 @@ const ATTRACTORS = [
       position: new THREE.Vector3(-2, 0.5, 3),
       axis: new THREE.Vector3(0, 0, 1),
       mass: 7e6,
-      spin: 2.75,
+      spin: -2.75,
       size: 0.8,
       color: "#ffe66d"
     }
@@ -46,7 +46,7 @@ export const ThreeAttractorsBackground: React.FC = () => {
     const attractorTextures = [
     loader.load("/sun.jpg"),
     loader.load("/venus.jpg"),
-    loader.load("/jupiter.jpg")
+    loader.load("/atr3.jpg")
     ];
     const bgTexture = loader.load("/bg.jpg");
 
@@ -97,7 +97,7 @@ export const ThreeAttractorsBackground: React.FC = () => {
     const colors = new Float32Array(count * 3);
     const masses = new Float32Array(count);
 
-    const colorA = new THREE.Color("#5900ff");
+    const colorA = new THREE.Color("#5302eb");
     const colorB = new THREE.Color("#ffa575");
 
     for (let i = 0; i < count; i++) {
@@ -202,13 +202,11 @@ export const ThreeAttractorsBackground: React.FC = () => {
 
         // --- Dynamic color based on speed ---
         const speed = Math.sqrt(vx * vx + vy * vy + vz * vz);
-        const t = Math.min(speed / MAX_SPEED, 1.0); // Normalize speed to [0, 1]
+        const t = Math.min(speed / 0.03, 1.0); // Normalize speed to [0, 1]
         const c = new THREE.Color().lerpColors(colorA, colorB, t);
         colors[i * 3] = c.r;
         colors[i * 3 + 1] = c.g;
-        colors[i * 3 + 2] = c.b;
-
-        
+        colors[i * 3 + 2] = c.b;        
       }
 
       pos.needsUpdate = true;
