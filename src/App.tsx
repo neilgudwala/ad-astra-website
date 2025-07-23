@@ -32,7 +32,7 @@ const App = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";
   const navItems = [
-    { name: "Home", link: "/" },
+    // { name: "Home", link: "/" },
     { name: "Astrophotography", link: "/astrophotography" },
     { name: "Research", link: "/research" },
     { name: "Events", link: "/events" },

@@ -193,7 +193,7 @@ export const MobileNavToggle = ({
 export const NavbarLogo = () => {
   return (
     <a
-      href="#"
+      href="/"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black">
       <span className="font-adastra text-white dark:text-black font-bold text-3xl">AD ASTRA</span>
     </a>
