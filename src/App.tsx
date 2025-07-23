@@ -2,8 +2,17 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Routes, Route, useLocation } from "react-router-dom";
-import Navigation from "./components/Navigation";
+import { Routes, Route, useLocation, Link } from "react-router-dom";
+import {
+  Navbar,
+  NavBody,
+  NavItems,
+  MobileNav,
+  MobileNavHeader,
+  MobileNavMenu,
+  MobileNavToggle,
+  NavbarLogo
+} from "@/components/ui/resizable-navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Game from "./pages/Playground";
@@ -15,19 +24,59 @@ import Team from "./pages/Team";
 import NotFound from "./pages/NotFound";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import { Home as HomeIcon,Telescope as TelescopeIcon, Calendar as CalendarIcon, Users as UsersIcon, Info as InfoIcon, Camera as CameraIcon } from "lucide-react";
+import React from "react";
 
 const queryClient = new QueryClient();
 
 const App = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";
+  const navItems = [
+    { name: "Home", link: "/" },
+    { name: "Astrophotography", link: "/astrophotography" },
+    { name: "Research", link: "/research" },
+    { name: "Events", link: "/events" },
+    { name: "About", link: "/about" },
+    { name: "Team", link: "/team" },
+    // { name: "Playground", link: "/playground" },
+  ];
+  const [mobileOpen, setMobileOpen] = React.useState(false);
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
         <Sonner />
         <div className="min-h-screen flex flex-col">
-          {!isHome && <Navigation />}
+          {!isHome && (
+            <Navbar className="top-0">
+              <NavBody className="" visible={true}>
+                <NavbarLogo />
+                <NavItems
+                  items={navItems}
+                  onItemClick={() => setMobileOpen(false)}
+                  className=""
+                />
+              </NavBody>
+              <MobileNav className="" visible={true}>
+                <MobileNavHeader className="">
+                  <NavbarLogo />
+                  <MobileNavToggle isOpen={mobileOpen} onClick={() => setMobileOpen((v) => !v)} />
+                </MobileNavHeader>
+                <MobileNavMenu className="" isOpen={mobileOpen} onClose={() => setMobileOpen(false)}>
+                  {navItems.map((item, idx) => (
+                    <Link
+                      key={item.name}
+                      to={item.link}
+                      onClick={() => setMobileOpen(false)}
+                      className="block px-4 py-2 text-lg text-neutral-800 dark:text-neutral-200 rounded hover:bg-gray-100 dark:hover:bg-neutral-800 w-full"
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </MobileNavMenu>
+              </MobileNav>
+            </Navbar>
+          )}
           <main className="flex-1">
             <Routes>
               <Route path="/" element={<Home />} />
