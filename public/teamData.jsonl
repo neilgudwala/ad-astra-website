@@ -1,0 +1,20 @@
+{"year": "2025-26", "members": [
+  {"name": "Neha Bhagwat", "position": "President", "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face", "contact": {"email": "sarah.chen@university.edu", "github": "sarahc-astro", "linkedin": "sarah-chen-astro"}},
+  {"name": "Arnav Kulshrestha", "position": "Secretary", "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face", "contact": {"email": "emily.rodriguez@university.edu", "github": "emily-cosmo", "linkedin": "emily-rodriguez-physics"}},
+  {"name": "Simran Misra", "position": "Treasurer", "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face", "contact": {"email": "alex.kim@university.edu", "github": "alexkim-astro", "linkedin": "alex-kim-cs"}}
+]}
+{"year": "2024-25", "members": [
+  {"name": "Neil Gudwala", "position": "President", "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"},
+  {"name": "Arpan Biswas", "position": "Secretary", "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"},
+  {"name": "Neha Bhagwat", "position": "Treasurer", "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"}
+]}
+{"year": "2023-24", "members": [
+  {"name": "Atreyi Dasgupta", "position": "President", "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"},
+  {"name": "Divyansh Gangwar", "position": "Secretary", "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"},
+  {"name": "Neil Gudwala", "position": "Treasurer", "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"}
+]}
+{"year": "2022-23", "members": [
+  {"name": "Manasa SK", "position": "President", "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"},
+  {"name": "Mehar Chawla", "position": "Secretary", "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"},
+  {"name": "Ansh Knotra", "position": "Treasurer", "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"}
+]} 

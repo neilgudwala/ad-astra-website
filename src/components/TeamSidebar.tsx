@@ -9,26 +9,29 @@ interface TeamSidebarProps {
 
 const TeamSidebar = ({ years, selectedYear, onYearSelect }: TeamSidebarProps) => {
   return (
-    <div className="w-48 bg-card border-r border-border p-4">
+    <div className="w-48 bg-card border border-border p-4 rounded-lg shadow-sm"> {/* Added rounded-lg and shadow-sm */}
       <h3 className="font-display font-bold text-lg text-foreground mb-4">
         Academic Years
       </h3>
       <div className="space-y-2">
-        {years.map((year) => (
-          <Button
-            key={year}
-            variant={selectedYear === year ? "default" : "ghost"}
-            className={cn(
-              "w-full justify-start text-left",
-              selectedYear === year 
-                ? "bg-primary text-primary-foreground" 
-                : "text-muted-foreground hover:text-foreground"
-            )}
-            onClick={() => onYearSelect(year)}
-          >
-            {year}
-          </Button>
-        ))}
+        {years.map((year) => {
+          const isSelected = selectedYear === year;
+          return (
+            <Button
+              key={year}
+              variant={isSelected ? "default" : "ghost"}
+              className={cn(
+                "w-full justify-start text-left",
+                isSelected
+                  ? "bg-primary text-primary-foreground"
+                  : "text-muted-foreground hover:text-foreground"
+              )}
+              onClick={() => onYearSelect(year)}
+            >
+              {year}
+            </Button>
+          );
+        })}
       </div>
     </div>
   );

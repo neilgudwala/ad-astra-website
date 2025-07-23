@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Star, Mail, Facebook, Instagram, Twitter } from "lucide-react";
+import { Star, Mail, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -33,28 +33,28 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="#" 
+                href="https://www.facebook.com/bphc.ad.astra/" 
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/bphc.ad.astra/" 
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/company/13754408/" 
                 className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="Twitter"
+                aria-label="LinkedIn"
               >
-                <Twitter className="h-5 w-5" />
+                <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:contact@adastra.edu" 
+                href="mailto:adastra@hyderabad.bits-pilani.ac.in" 
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >

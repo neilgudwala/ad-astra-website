@@ -10,7 +10,7 @@ const Team = () => {
       {
         name: "Neha Bhagwat",
         position: "President",
-        image: "https://images.unsplash.com/photo-1494790108755-2616b2e30bc0?w=400&h=400&fit=crop&crop=face",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
         contact: {
           email: "sarah.chen@university.edu",
           github: "sarahc-astro",
@@ -38,90 +38,231 @@ const Team = () => {
         }
       },
       {
-        name: "Marcus Thompson",
-        position: "Outreach Coordinator",
+        name: "Rohan Prakash",
+        position: "Research Lead",
         image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
         contact: {
-          email: "marcus.thompson@university.edu",
-          linkedin: "marcus-thompson-edu"
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
         }
       },
       {
-        name: "Dr. Michael Torres",
-        position: "Faculty Advisor",
+        name: "Tulika Devale",
+        position: "Tech Lead",
         image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
         contact: {
-          email: "mtorres@university.edu"
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
         }
       },
       {
-        name: "Dr. Lisa Patel",
-        position: "Research Advisor",
-        image: "https://images.unsplash.com/photo-1494790108755-2616b2e30bc0?w=400&h=400&fit=crop&crop=face",
+        name: "Avani Asati",
+        position: "Astrophotography Lead",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
         contact: {
-          email: "lpatel@university.edu"
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
         }
       },
       {
-        name: "Jordan Williams",
-        position: "Astrophotography Team Lead",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+        name: "Eeshan Bhandarkar",
+        position: "Content & Events Lead",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        contact: {
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
+        }
+      }
+    ],
+    "2024-25": [
+      {
+        name: "Neil Gudwala",
+        position: "President",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+        contact: {
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
+        }
       },
       {
-        name: "Maya Sharma",
-        position: "Variable Star Research Lead",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+        name: "Arpan Biswas",
+        position: "Secretary",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+        contact: {
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
+        }
       },
       {
-        name: "David Chen",
-        position: "Exoplanet Team Lead",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+        name: "Neha Bhagwat",
+        position: "Treasurer",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        contact: {
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
+        }
       },
       {
-        name: "Sofia Gonzalez",
-        position: "Public Outreach Lead",
-        image: "https://images.unsplash.com/photo-1494790108755-2616b2e30bc0?w=400&h=400&fit=crop&crop=face"
+        name: "Arnav Kulshrestha",
+        position: "Astrophotography Lead",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        contact: {
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
+        }
+      },
+      {
+        name: "Divyansh Rungta",
+        position: "Content Lead",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        contact: {
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
+        }
+      },
+      {
+        name: "Siddharth Sastri",
+        position: "Research Lead",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        contact: {
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
+        }
+      },
+      {
+        name: "Sparsh Batra",
+        position: "Project Lead",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        contact: {
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
+        }
+      },
+      {
+        name: "Aaditya Bhagat",
+        position: "Event Lead",
+        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        contact: {
+          email: "alex.kim@university.edu",
+          github: "alexkim-astro",
+          linkedin: "alex-kim-cs"
+        }
       }
     ],
     "2023-24": [
       {
-        name: "Dr. James Liu",
-        position: "Former President",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+        name: "Atreyi Dasgupta",
+        position: "President",
+        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
       },
       {
-        name: "Rachel Martinez",
-        position: "Former Vice President",
+        name: "Divyansh Gangwar",
+        position: "Secretary",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
       },
       {
-        name: "Ahmed Hassan",
-        position: "Former Secretary",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
+        name: "Neil Gudwala",
+        position: "Treasurer",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
       }
     ],
     "2022-23": [
       {
-        name: "Michael Foster",
-        position: "Former President",
+        name: "Manasa SK",
+        position: "President",
         image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
       },
       {
-        name: "Jennifer Zhang",
-        position: "Former Vice President",
-        image: "https://images.unsplash.com/photo-1494790108755-2616b2e30bc0?w=400&h=400&fit=crop&crop=face"
+        name: "Mehar Chawla",
+        position: "Secretary",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Ansh Kanotra",
+        position: "Treasurer",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      }
+    ],
+    "2021-22": [
+      {
+        name: "KV Sai Tarun",
+        position: "President",
+        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Mansvi Bhatia",
+        position: "Secretary",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Atharv Chaba",
+        position: "Treasurer",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Vedagya Saraswat",
+        position: "Ex-Officio Finance",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      }
+    ],
+    "2020-21": [
+      {
+        name: "Hemendra Singh",
+        position: "President",
+        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Aayush Shah",
+        position: "Secretary",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Vedagya Saraswat",
+        position: "Treasurer",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      }
+    ],
+    "2019-20": [
+      {
+        name: "Hemendra Singh",
+        position: "President",
+        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Aayush Shah",
+        position: "Secretary",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Vedagya Saraswat",
+        position: "Treasurer",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
       }
     ]
   };
 
   const years = Object.keys(teamData);
+  const currentTeam = teamData[selectedYear] || [];
+  const topThreeMembers = currentTeam.slice(0, 3);
+  const otherMembers = currentTeam.slice(3);
 
   return (
     <div className="min-h-screen bg-black bg-[url('/bg.jpg')] bg-cover bg-center py-20">
-      <div className="pt-20">
+      <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-8 px-4">
-          <h1 className="font-adastra font-bold text-4xl md:text-5xl text-foreground mb-4 select-none">
+        <div className="text-center mb-12">
+          <h1 className="font-adastra font-bold text-4xl md:text-5xl text-foreground mb-6 select-none">
             MEET THE TEAM
           </h1>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
@@ -131,15 +272,15 @@ const Team = () => {
 
         {/* Main Content */}
         <div className="flex min-h-screen">
-          <TeamSidebar 
+          <TeamSidebar
             years={years}
             selectedYear={selectedYear}
             onYearSelect={setSelectedYear}
           />
-          
           <div className="flex-1 p-8">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-              {teamData[selectedYear]?.map((member, index) => (
+            {/* Top 3 Members - Large Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              {topThreeMembers.map((member, index) => (
                 <TeamMemberCard
                   key={index}
                   name={member.name}
@@ -149,6 +290,21 @@ const Team = () => {
                 />
               ))}
             </div>
+
+            {/* Other Members - Normal Sized Cards */}
+            {otherMembers.length > 0 && (
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                {otherMembers.map((member, index) => (
+                  <TeamMemberCard
+                    key={index}
+                    name={member.name}
+                    position={member.position}
+                    image={member.image}
+                    contact={member.contact}
+                  />
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>
