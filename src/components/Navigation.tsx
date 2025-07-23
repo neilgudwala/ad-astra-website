@@ -28,7 +28,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Star className="h-8 w-8 text-primary" />
+            
             <Link to="/" className="font-display font-bold text-xl text-foreground hover:text-primary transition-colors">
               AD ASTRA
             </Link>

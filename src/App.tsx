@@ -25,34 +25,36 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
-      <div className="min-h-screen flex flex-col">
-        {/* <Navigation /> */}
-        <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/astrophotography" element={<Astrophotography />} />
-            <Route path="/research" element={<Research />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/team" element={<Team />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </main>
-        <FloatingDock
-          items={[
-            { title: "Home", icon: <HomeIcon className="w-6 h-6" />, href: "/" },
-            { title: "Events", icon: <CalendarIcon className="w-6 h-6" />, href: "/events" },
-            { title: "Team", icon: <UsersIcon className="w-6 h-6" />, href: "/team" },
-            { title: "Research", icon: <TelescopeIcon className="w-6 h-6" />, href: "/research" },
-            { title: "Astrophotography", icon: <CameraIcon className="w-6 h-6" />, href: "/astrophotography" },
-            { title: "About", icon: <InfoIcon className="w-6 h-6" />, href: "/about" },
-          ]}
-          desktopClassName="fixed left-1/2 -translate-x-1/2 bottom-12 z-50 shadow-lg"
-          mobileClassName="fixed bottom-16 right-4 z-50 shadow-lg"
-        />
-        {!isHome && <Footer />}
-      </div>
+        <div className="min-h-screen flex flex-col">
+          {!isHome && <Navigation />}
+          <main className="flex-1">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/astrophotography" element={<Astrophotography />} />
+              <Route path="/research" element={<Research />} />
+              <Route path="/events" element={<Events />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/team" element={<Team />} />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
+          {isHome && (
+            <FloatingDock
+              items={[
+                { title: "Home", icon: <HomeIcon className="w-6 h-6" />, href: "/" },
+                { title: "Events", icon: <CalendarIcon className="w-6 h-6" />, href: "/events" },
+                { title: "Team", icon: <UsersIcon className="w-6 h-6" />, href: "/team" },
+                { title: "Research", icon: <TelescopeIcon className="w-6 h-6" />, href: "/research" },
+                { title: "Astrophotography", icon: <CameraIcon className="w-6 h-6" />, href: "/astrophotography" },
+                { title: "About", icon: <InfoIcon className="w-6 h-6" />, href: "/about" },
+              ]}
+              desktopClassName="fixed left-1/2 -translate-x-1/2 bottom-16 z-50 shadow-lg"
+              mobileClassName="fixed bottom-16 right-4 z-50 shadow-lg"
+            />
+          )}
+          {!isHome && <Footer />}
+        </div>
       </TooltipProvider>
     </QueryClientProvider>
   );
