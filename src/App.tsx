@@ -101,7 +101,7 @@ const App = () => {
                 { title: "About Us", icon: <InfoIcon className="w-6 h-6" />, href: "/about" },
               ]}
               desktopClassName="fixed left-1/2 -translate-x-1/2 bottom-16 z-50 shadow-lg"
-              mobileClassName="fixed bottom-16 right-4 z-50 shadow-lg"
+              mobileClassName=""
             />
           )}
           {!isHome && <Footer />}
