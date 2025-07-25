@@ -26,6 +26,7 @@ import { FloatingDock } from "@/components/ui/floating-dock";
 import { Home as HomeIcon,Telescope as TelescopeIcon, Calendar as CalendarIcon, Users as UsersIcon, Info as InfoIcon, Camera as CameraIcon } from "lucide-react";
 import React from "react";
 
+
 const queryClient = new QueryClient();
 
 const App = () => {
