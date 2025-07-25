@@ -1,9 +1,14 @@
 import { useState } from "react";
 import TeamSidebar from "@/components/TeamSidebar";
 import TeamMemberCard from "@/components/TeamMemberCard";
+import { useIsMobile } from "@/hooks/use-mobile";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
 
 const Team = () => {
   const [selectedYear, setSelectedYear] = useState("2025-26");
+  const isMobile = useIsMobile();
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const teamData = {
     "2025-26": [
@@ -272,12 +277,27 @@ const Team = () => {
 
         {/* Main Content */}
         <div className="flex min-h-screen">
-          <TeamSidebar
-            years={years}
-            selectedYear={selectedYear}
-            onYearSelect={setSelectedYear}
-          />
+          {!isMobile && (
+            <TeamSidebar
+              years={years}
+              selectedYear={selectedYear}
+              onYearSelect={setSelectedYear}
+            />
+          )}
           <div className="flex-1 p-8">
+            {isMobile && (
+              <div className="mb-6 w-full flex justify-center">
+                <select
+                  className="bg-card border border-border rounded-lg px-4 py-2 text-lg text-foreground"
+                  value={selectedYear}
+                  onChange={e => setSelectedYear(e.target.value)}
+                >
+                  {years.map(year => (
+                    <option key={year} value={year}>{year}</option>
+                  ))}
+                </select>
+              </div>
+            )}
             {/* Top 3 Members - Large Cards */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               {topThreeMembers.map((member, index) => (
