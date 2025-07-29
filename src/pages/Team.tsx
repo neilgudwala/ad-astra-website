@@ -254,7 +254,43 @@ const Team = () => {
         position: "Treasurer",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
       }
-    ]
+    ],
+    "2018-19": [
+      {
+        name: "Shubham Agarwal",
+        position: "President",
+        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+      },
+    ],
+    "2017-18": [
+      {
+        name: "Nikhil Navratna",
+        position: "President",
+        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Aayush Barthwal",
+        position: "Secretary",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      },
+    ],
+    "2015-16": [
+      {
+        name: "Sabih Siddiqui",
+        position: "Founder",
+        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Prof. Rahul Nigam",
+        position: "Faculty Advisor & Supporter",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      },
+      {
+        name: "Prof. Sashideep Gutti",
+        position: "Faculty Advisor & Supporter",
+        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      }
+    ],
   };
 
   const years = Object.keys(teamData);
