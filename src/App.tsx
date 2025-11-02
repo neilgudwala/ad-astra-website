@@ -22,6 +22,7 @@ import Events from "./pages/Events";
 import About from "./pages/About";
 import Team from "./pages/Team";
 import NotFound from "./pages/NotFound";
+import Workshop from "./pages/Workshop";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import { Home as HomeIcon,Telescope as TelescopeIcon, Calendar as CalendarIcon, Users as UsersIcon, Info as InfoIcon, Camera as CameraIcon } from "lucide-react";
 import React from "react";
@@ -32,6 +33,8 @@ const queryClient = new QueryClient();
 const App = () => {
   const location = useLocation();
   const isHome = location.pathname === "/";
+  //TO BE REMOVED
+  const isWorkshop = location.pathname === "/workshop";
   const navItems = [
     // { name: "Home", link: "/" },
     { name: "Events", link: "/events" },
@@ -48,7 +51,7 @@ const App = () => {
         <Toaster />
         <Sonner />
         <div className="min-h-screen flex flex-col">
-          {!isHome && (
+          {(!isHome && !isWorkshop) && (
             <Navbar className="top-0">
               <NavBody className="" visible={true}>
                 <NavbarLogo />
@@ -87,6 +90,7 @@ const App = () => {
               <Route path="/about" element={<About />} />
               <Route path="/team" element={<Team />} />
               <Route path="/playground" element={<Game />} />
+              <Route path="/workshop" element={<Workshop />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
@@ -105,7 +109,7 @@ const App = () => {
               mobileClassName=""
             />
           )}
-          {!isHome && <Footer />}
+          {!isHome && !isWorkshop && <Footer />}
         </div>
       </TooltipProvider>
     </QueryClientProvider>
