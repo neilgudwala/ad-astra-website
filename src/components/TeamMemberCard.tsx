@@ -27,18 +27,49 @@ const TeamMemberCard = ({ name, position, image, contact }: TeamMemberCardProps)
       {contact && (
         <div className="flex justify-center gap-2">
           {contact.email && (
-            <Button size="sm" variant="outline" className="p-2">
-              <Mail className="h-4 w-4" />
+            <Button 
+              size="sm" 
+              variant="outline" 
+              className="p-2"
+              asChild
+            >
+              <a href={`mailto:${contact.email}`} target="_blank" rel="noopener noreferrer">
+                <Mail className="h-4 w-4" />
+              </a>
             </Button>
           )}
           {contact.github && (
-            <Button size="sm" variant="outline" className="p-2">
-              <Github className="h-4 w-4" />
+            <Button 
+              size="sm" 
+              variant="outline" 
+              className="p-2"
+              asChild
+            >
+              <a 
+                href={`https://github.com/${contact.github}`} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Github className="h-4 w-4" />
+              </a>
             </Button>
           )}
           {contact.linkedin && (
-            <Button size="sm" variant="outline" className="p-2">
-              <Linkedin className="h-4 w-4" />
+            <Button 
+              size="sm" 
+              variant="outline" 
+              className="p-2"
+              asChild
+            >
+              <a 
+                href={contact.linkedin.startsWith('http') 
+                  ? contact.linkedin 
+                  : `https://linkedin.com/in/${contact.linkedin}`} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Linkedin className="h-4 w-4" />
+              </a>
             </Button>
           )}
         </div>

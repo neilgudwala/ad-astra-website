@@ -1,0 +1,307 @@
+{
+"2025-26": {
+    "team": [
+        {
+        "name": "Neha Bhagwat",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Arnav Kulshrestha",
+        "position": "Secretary",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Simran Misra",
+        "position": "Treasurer",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Rohan Prakash",
+        "position": "Research Lead",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Tulika Devale",
+        "position": "Tech Lead",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Avani Asati",
+        "position": "Astrophotography Lead",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Eeshan Bhandarkar",
+        "position": "Content & Events Lead",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        }
+    ]
+},
+"2024-25": {
+    "team": [
+        {
+        "name": "Neil Gudwala",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {
+            "email": "f20221407@hyderabad.bits-pilani.ac.in",
+            "linkedin": "neilgudwala"
+        }
+        },
+        {
+        "name": "Arpan Biswas",
+        "position": "Secretary",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Neha Bhagwat",
+        "position": "Treasurer",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Arnav Kulshrestha",
+        "position": "Astrophotography Lead",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Divyansh Rungta",
+        "position": "Content Lead",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Siddharth Sastri",
+        "position": "Research Lead",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Sparsh Batra",
+        "position": "Project Lead",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Aaditya Bhagat",
+        "position": "Event Lead",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {}
+        }
+    ],
+    "achievements": []
+},
+"2023-24": {
+    "team": [
+        {
+        "name": "Atreyi Dasgupta",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Divyansh Gangwar",
+        "position": "Secretary",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Neil Gudwala",
+        "position": "Treasurer",
+        "image": "src\\assets\\avatar_placeholder.png"
+        }
+    ],
+    "achievements": []
+},
+"2022-23": {
+    "team": [
+        {
+        "name": "Manasa SK",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Mehar Chawla",
+        "position": "Secretary",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Ansh Kanotra",
+        "position": "Treasurer",
+        "image": "src\\assets\\avatar_placeholder.png"
+        }
+    ],
+    "achievements": [
+        "Organised our first technical workshop in ATMoS '22"
+    ]
+},
+"2021-22": {
+    "team": [
+        {
+        "name": "KV Sai Tarun",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Mansvi Bhatia",
+        "position": "Secretary",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Atharv Chaba",
+        "position": "Treasurer",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Vedagya Saraswat",
+        "position": "Ex-Officio Finance",
+        "image": "src\\assets\\avatar_placeholder.png"
+        }
+    ],
+    "achievements": []
+},
+"2020-21": {
+    "team": [
+        {
+        "name": "Hemendra Singh",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Aayush Shah",
+        "position": "Secretary",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Vedagya Saraswat",
+        "position": "Treasurer",
+        "image": "src\\assets\\avatar_placeholder.png"
+        }
+    ],
+    "achievements": []
+},
+"2019-20": {
+    "team": [
+        {
+        "name": "Yashas Anilkumar",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Sanika Khadkikar",
+        "position": "Secretary",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Rupanshu Soi",
+        "position": "Treasurer",
+        "image": "src\\assets\\avatar_placeholder.png"
+        }
+    ],
+    "achievements": []
+},
+"2018-19": {
+    "team": [
+        {
+        "name": "Shubham Agarwal",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png"
+        }
+    ],
+    "achievements": []
+},
+"2017-18": {
+    "team": [
+        {
+        "name": "Nikhil Navratna",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Aayush Barthwal",
+        "position": "Secretary",
+        "image": "src\\assets\\avatar_placeholder.png"
+        }
+    ],
+    "achievements": []
+},
+"2016-17": {
+    "team": [
+        {
+        "name": "Ayush Yadav",
+        "position": "President",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {
+            "linkedin": "ayushyadav7"
+        }
+        }
+    ],
+    "achievements": []
+},
+"2015-16": {
+    "team": [
+        {
+            "name": "Ayush Yadav",
+            "position": "Joint Secretary",
+            "image": "src\\assets\\avatar_placeholder.png",
+            "contact": {
+            "linkedin": "ayushyadav7"
+        }
+        }
+    ]
+},
+"2013-14": {
+    "team": [
+        {
+        "name": "Sabih Siddiqui",
+        "position": "Founding Member",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {
+            "linkedin": "siddiquisabih"
+        }
+        },
+        {
+        "name": "Prashant Sukumar",
+        "position": "Founding Member",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Chinmaya Patnayak",
+        "position": "Founding Member",
+        "image": "src\\assets\\avatar_placeholder.png",
+        "contact": {
+            "linkedin": "patnayak"
+        }
+        },
+        {
+        "name": "Prof. Rahul Nigam",
+        "position": "Faculty Advisor & Supporter",
+        "image": "src\\assets\\avatar_placeholder.png"
+        },
+        {
+        "name": "Prof. Sashideep Gutti",
+        "position": "Faculty Advisor & Supporter",
+        "image": "src\\assets\\avatar_placeholder.png"
+        }
+    ],
+    "achievements": [
+        "Ad Astra is formally established as a Technical Club on Campus",
+        "We are one of the first Tech Clubs at BITS Pilani, Hyderabad"
+    ]
+},
+"2010-11": {
+    "team": [
+    ],
+    "achievements": [
+        "Ad Astra is formed as a group of passionate astronomers at BPHC"
+    ]
+}
+}

@@ -48,33 +48,6 @@ const Research = () => {
     }
   ];
 
-  const completedProjects = [
-    {
-      title: "Solar Activity and Radio Burst Correlation",
-      description: "A comprehensive study of the relationship between solar flare intensity and radio burst characteristics over a full solar cycle.",
-      status: "Completed",
-      lead: "Dr. Martinez & Previous Team",
-      completionDate: "May 2023",
-      participants: 10,
-      publications: [
-        "Solar-Radio Correlations: A Student Perspective (Astronomy Education Review, 2023)",
-        "Conference presentation at National Undergraduate Research Conference"
-      ]
-    },
-    {
-      title: "Asteroid Lightcurve Analysis",
-      description: "Photometric study of near-Earth asteroids to determine rotation periods and shape characteristics.",
-      status: "Completed", 
-      lead: "Previous Research Team",
-      completionDate: "December 2022",
-      participants: 15,
-      publications: [
-        "Minor Planet Bulletin contributions for 12 asteroids",
-        "Collaborative observations with international amateur network"
-      ]
-    }
-  ];
-
   const researchAreas = [
     {
       area: "Observational Astronomy",
@@ -131,7 +104,7 @@ const Research = () => {
         {/* Ongoing Projects */}
         <section className="mb-16">
           <h2 className="font-display font-bold text-2xl text-foreground mb-8">
-            Ongoing Projects
+            Featured Projects
           </h2>
           <div className="space-y-8">
             {ongoingProjects.map((project, index) => (
@@ -176,76 +149,6 @@ const Research = () => {
             ))}
           </div>
         </section>
-
-        {/* Completed Projects */}
-        <section className="mb-16">
-          <h2 className="font-display font-bold text-2xl text-foreground mb-8">
-            Completed Projects
-          </h2>
-          <div className="space-y-8">
-            {completedProjects.map((project, index) => (
-              <Card key={index} className="bg-card border-border">
-                <CardHeader>
-                  <div className="flex items-start justify-between mb-2">
-                    <CardTitle className="text-xl text-foreground">{project.title}</CardTitle>
-                    <Badge variant="secondary">
-                      {project.status}
-                    </Badge>
-                  </div>
-                  <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
-                    <div className="flex items-center gap-1">
-                      <Users className="h-4 w-4" />
-                      <span>{project.participants} participants</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <Calendar className="h-4 w-4" />
-                      <span>Completed {project.completionDate}</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <BookOpen className="h-4 w-4" />
-                      <span>Led by {project.lead}</span>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-6">{project.description}</p>
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-3">Publications & Presentations:</h4>
-                    <ul className="space-y-2">
-                      {project.publications.map((pub, idx) => (
-                        <li key={idx} className="text-muted-foreground text-sm flex items-start gap-2">
-                          <ExternalLink className="h-4 w-4 text-primary mt-1 flex-shrink-0" />
-                          <span>{pub}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </section>
-
-        {/* Call to Action */}
-        <div className="text-center">
-          <Card className="bg-gradient-to-r from-primary/10 to-accent/10 border-primary/20 p-8">
-            <h3 className="font-display font-bold text-2xl text-foreground mb-4">
-              Join Our Research Community
-            </h3>
-            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Interested in contributing to real astronomical research? Our club welcomes students 
-              of all levels to participate in ongoing projects and develop new research initiatives.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90">
-                Propose a Project
-              </Button>
-              <Button size="lg" variant="outline">
-                View Research Guidelines
-              </Button>
-            </div>
-          </Card>
-        </div>
       </div>
     </div>
   );
