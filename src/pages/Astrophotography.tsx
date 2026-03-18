@@ -96,7 +96,16 @@ const Astrophotography = () => {
           </p>
         </div>
 
-        {/* Category Filter */}
+        {/* Coming Soon Section */}
+        <div className="flex flex-col items-center justify-center py-20 text-center">
+          <h2 className="font-display font-medium text-4xl text-muted-foreground mb-4">Coming Soon</h2>
+          <p className="text-lg text-muted-foreground/80 max-w-2xl">
+            We are currently curating a stunning collection of astrophotography taken by our members. 
+            Check back soon to explore the universe through their lenses!
+          </p>
+        </div>
+
+        {/* Category Filter (Commented out)
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map((category) => (
             <Button
@@ -108,9 +117,9 @@ const Astrophotography = () => {
               {category}
             </Button>
           ))}
-        </div>
+        </div> */}
 
-        {/* Photo Grid */}
+        {/* Photo Grid (Commented out)
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredPhotos.map((photo) => (
             <Card key={photo.id} className="bg-card border-border overflow-hidden group hover:border-primary/50 transition-all duration-300">
@@ -143,7 +152,7 @@ const Astrophotography = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
+        </div> */}
 
         {/* Call to Action */}
         <div className="text-center mt-16">

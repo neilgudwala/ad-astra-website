@@ -131,7 +131,16 @@ const Events = () => {
           </p>
         </div>
 
-        {/* Upcoming Events */}
+        {/* Coming Soon Section */}
+        <div className="flex flex-col items-center justify-center py-20 text-center">
+          <h2 className="font-display font-medium text-4xl text-muted-foreground mb-4">Coming Soon</h2>
+          <p className="text-lg text-muted-foreground/80 max-w-2xl">
+            We are working on bringing you exciting cosmic events. Check back soon for stargazing nights, 
+            workshops, and guest lectures!
+          </p>
+        </div>
+
+        {/* Upcoming Events (Commented out)
         <section className="mb-16">
           <h2 className="font-display font-bold text-2xl text-foreground mb-8">
             Upcoming Events
@@ -219,7 +228,7 @@ const Events = () => {
           </div>
         </section>
 
-        {/* Past Events */}
+        Past Events
         <section className="mb-16">
           <h2 className="font-display font-bold text-2xl text-foreground mb-8">
             Past Events Highlights
@@ -243,7 +252,7 @@ const Events = () => {
               </Card>
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* Event Information */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
