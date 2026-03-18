@@ -11,39 +11,35 @@ const Research = () => {
       title: "Exoplanet Detection Using Transit Photometry",
       description: "Our team is analyzing light curves from the TESS mission to identify potential exoplanets around nearby stars. We've discovered 3 candidate planets pending confirmation.",
       status: "Ongoing",
-      lead: "Dr. Sarah Chen & Emily Rodriguez",
+      lead: "Ansh Kanotra(2021) & Yash(2024)",
       startDate: "September 2023",
       participants: 8,
       keyFindings: [
-        "Identified TOI-4567b candidate with 2.3-day orbital period",
         "Developed automated pipeline for light curve analysis",
-        "Collaborated with professional observatories for follow-up"
+        "Developed multi-level perceptron to classify exoplanets."
       ]
     },
     {
-      title: "Galaxy Cluster Dynamics Simulation",
-      description: "Using computational models to study the formation and evolution of galaxy clusters, with focus on dark matter distribution and merger events.",
+      title: "Galactic Dark Matter Study via Horn Antenna",
+      description: "Utilizing a custom-built horn antenna to observe the 22cm hydrogen line, allowing us to map the rotational velocities of the Milky Way and study the distribution of dark matter in our galaxy.",
       status: "Ongoing",
-      lead: "Alex Kim & Dr. Michael Torres",
-      startDate: "January 2024",
+      lead: "Tulika Devale, Sparsh Batra, Atreyi Dasgupta",
+      startDate: "October 2023",
       participants: 6,
       keyFindings: [
-        "Simulated cluster merger with 10^15 solar mass components",
-        "Analyzed gravitational lensing effects",
-        "Published preliminary results in undergraduate journal"
+        "Constructed and calibrated the horn antenna prototype",
+        "Successfully detected hydrogen emission from the galactic plane"
       ]
     },
     {
-      title: "Variable Star Classification Project",
-      description: "Systematic observation and classification of variable stars in nearby globular clusters using our campus observatory.",
+      title: "Radio Jove: Listening to Jupiter and the Sun",
+      description: "Setting up a dual dipole antenna array to monitor and record natural decametric radio emissions from Jupiter's magnetosphere and solar flares.",
       status: "Ongoing",
-      lead: "Mike Rodriguez & Team",
-      startDate: "October 2023",
-      participants: 12,
+      lead: "Sparsh Batra",
+      startDate: "August 2025",
+      participants: 5,
       keyFindings: [
-        "Catalogued 47 RR Lyrae variables in M13",
-        "Improved period-luminosity relationships",
-        "Contributed data to international variable star database"
+        "Project has been funded by BITS under SIP initiative, currently acquiring necessary equipment.",
       ]
     }
   ];
