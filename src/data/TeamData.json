@@ -1,4 +1,50 @@
 {
+    "2026-27": {
+    "team": [
+        {
+        "name": "Eeshan Bhandarkar",
+        "position": "President",
+        "image": "/avatar_placeholder.png",
+        "contact": "9284704686"
+        },
+        {
+        "name": "Dev Rangwani",
+        "position": "Secretary",
+        "image": "/avatar_placeholder.png",
+        "contact": "9116764522"
+        },
+        {
+        "name": "Adwait Amlekar",
+        "position": "Treasurer",
+        "image": "/avatar_placeholder.png",
+        "contact": "8867460251"
+        },
+        {
+        "name": "Venkat Sai Anirudh",
+        "position": "Research Lead",
+        "image": "/avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Samhita Gorur",
+        "position": "Tech Lead",
+        "image": "/avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Spandan Mohanty",
+        "position": "Astrophotography Lead",
+        "image": "/avatar_placeholder.png",
+        "contact": {}
+        },
+        {
+        "name": "Arnav Arora",
+        "position": "Content & Events Lead",
+        "image": "/avatar_placeholder.png",
+        "contact": {}
+        }
+    ]
+},
 "2025-26": {
     "team": [
         {
